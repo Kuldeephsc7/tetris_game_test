@@ -18,6 +18,6 @@ spec:
       - name: myregistrykey
       containers:
         - name: tetris
-          image: nginx:latest
+          image: index.docker.io/sreeharshav/rollingupdate:v3
           ports:
             - containerPort: 80 # Replace with the port your Tetris game listens on
