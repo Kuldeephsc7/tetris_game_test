@@ -17,7 +17,7 @@ spec:
       imagePullSecrets:
       - name: docker-registry-credentials
       containers:
-        - name: tetris
-          image: dockerrepo:30500/nginx:1.25.4
+        - name: tetris #nasi101/tetrisv2
+          image: nasi101/tetrisv2#dockerrepo:30500/nginx:1.25.4
           ports:
             - containerPort: 80 # Replace with the port your Tetris game listens on
